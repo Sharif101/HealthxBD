@@ -23,7 +23,7 @@
 {
     font-family: 'Poppins', sans-serif;
     font-size: 12px;
-    width: 50%;
+    width: 60%;
     color: #EFF6FF;
 }
 .text button
@@ -57,6 +57,18 @@ ul
     list-style: none;
     display: flex;
     justify-content: space-between;
+}
+.icon .img
+{
+    display: flex;
+    justify-content: flex-end;
+}
+.img img
+{
+    width: 32px;
+    height: 32px;
+    margin: 0 10px;
+    margin-top: 20px;
 }
 
 .footer_text {

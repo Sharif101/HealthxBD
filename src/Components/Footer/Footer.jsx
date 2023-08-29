@@ -1,5 +1,8 @@
 import React from "react";
 import Style from "./Footer.module.css";
+import facebook from '../../images/Facebook Icon.png'
+import linkedin from '../../images/Linkedin Icon.png'
+import youtube from '../../images/Youtube Icon.png'
 
 const componentName = (props) => {
   return (
@@ -25,6 +28,11 @@ const componentName = (props) => {
                 <li><a href="">FAQ <span>|</span></a></li>
                 <li><a href="">More</a></li>
             </ul>
+            <div className={Style.img}>
+                <img src={facebook} alt="" />
+                <img src={linkedin} alt="" />
+                <img src={youtube} alt="" />
+            </div>
         </div>
       </div>
       <p className={Style.footer_text}>Copyright © HEALTHX Ventures. All rights reserved.</p>
