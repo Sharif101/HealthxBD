@@ -8,23 +8,24 @@
   display: flex;
   align-items: center;
 }
-.nav_item > a {
+.navLink > a {
   text-decoration: none;
   font-size: 16px;
   font-weight: 600;
   color: black;
+  margin: 0 15px;
 }
 .container > p {
   font-size: 20px;
   font-weight: 800;
   padding-left: 10px;
 }
-.nav_item {
+.navItem {
   display: flex;
   align-items: center;
   gap: 15px;
 }
-.nav_item > button {
+.navItem > button {
   background-color: rgb(7, 7, 98);
   color: white;
   padding: 10px 25px;
@@ -37,7 +38,7 @@
   .container {
     padding: 0 1em;
   }
-  .nav_item {
+  .navLink {
     display: none;
   }
 }
