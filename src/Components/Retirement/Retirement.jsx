@@ -1,11 +1,11 @@
-import React from 'react';
-import Style from './Retirement.module.css'
-import img from '../../images/Retirement.png'
 
-const componentName = (props) => {
-    return (
-        <div className={Style.container}>
-        <div className={Style.text}>
+import classes from './Retirement.module.css'
+import retirement from '../../assets/Retirement/Retirement.png'
+
+export default function Retirement() {
+  return (
+    <div className={classes.container}>
+        <div className={classes.text}>
           <h1>Retirement</h1>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate
@@ -25,11 +25,9 @@ const componentName = (props) => {
           <button>Learn More</button>
         </div>
 
-        <div className={Style.img}>
-          <img src={img} alt="" />
+        <div className={classes.img}>
+          <img src={retirement} alt="" />
         </div>
       </div>
-    );
-};
-
-export default componentName;
+  )
+}
