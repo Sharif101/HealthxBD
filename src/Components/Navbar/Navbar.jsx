@@ -1,6 +1,6 @@
-import React from "react";
 import classes from "./Navbar.module.css";
 import logo from "../../assets/Navbar/Logo.png";
+
 export default function Navbar() {
   return (
     <div className={classes.container}>

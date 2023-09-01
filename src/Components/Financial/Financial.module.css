@@ -5,29 +5,29 @@
   margin-top: 80px;
 }
 .img {
-  width: 48%;
+  width: 35%;
 }
 .img > img {
   width: 100%;
 }
 .text {
-  width: 48%;
+  width: 60%;
 }
 .text > h1 {
-  font-size: 60px;
+  font-size: 2em;
 }
 .text > p {
-  font-size: 18px;
+  padding: 20px 0;
+  line-height: 30px;
 }
 .text > button {
   background-color: rgb(7, 7, 98);
-  color: white;
+  color: var(--white);
   padding: 10px 25px;
   border-radius: 100px;
   cursor: pointer;
   margin-top: 20px;
   font-size: 18px;
-  font-weight: 400;
 }
 
 /* -----------responsive---------------- */
@@ -36,7 +36,7 @@
     padding: 0 1em;
     display: flex;
     flex-direction: column;
-    margin-top: 20px;
+    margin-top: 40px;
   }
   .img {
     width: 100%;
@@ -46,6 +46,7 @@
   }
   .text > h1 {
     font-size: 26px;
+    padding-top: 20px;
   }
   .text > p {
     font-size: 16px;

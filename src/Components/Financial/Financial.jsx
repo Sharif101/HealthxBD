@@ -1,4 +1,3 @@
-import React from "react";
 import classes from "./Financial.module.css";
 import financial from "../../assets/Financial/Financial.png";
 

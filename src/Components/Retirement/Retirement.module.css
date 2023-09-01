@@ -3,21 +3,23 @@
   display: flex;
   justify-content: space-between;
   margin-top: 80px;
+  margin-bottom: 40px;
 }
 .img {
-  width: 48%;
+  width: 35%;
 }
 .img > img {
   width: 100%;
 }
 .text {
-  width: 48%;
+  width: 60%;
 }
 .text > h1 {
-  font-size: 60px;
+  font-size: 2em;
 }
 .text > p {
-  font-size: 18px;
+  line-height: 30px;
+  padding: 20px 0;
 }
 .text > button {
   background-color: white;
@@ -36,7 +38,6 @@
     padding: 0px 1em;
     display: flex;
     flex-direction: column-reverse;
-    margin-bottom: 80px;
   }
   .img {
     width: 108%;

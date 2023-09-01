@@ -3,14 +3,19 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 20px;
 }
 .logo {
   display: flex;
   align-items: center;
+  gap: 10px;
+}
+.logo > p {
+  font-size: 17px;
+  font-weight: 600;
 }
 .navLink > a {
   text-decoration: none;
-  font-size: 16px;
   font-weight: 600;
   color: black;
   margin: 0 15px;
@@ -27,7 +32,7 @@
 }
 .navItem > button {
   background-color: rgb(7, 7, 98);
-  color: white;
+  color: var(--white);
   padding: 10px 25px;
   border-radius: 100px;
   cursor: pointer;
