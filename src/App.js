@@ -6,10 +6,10 @@ import Footer from "../src/Components/Footer/Footer.jsx";
 function App() {
   return (
     <div>
-      <Navbar></Navbar>
-      <Financial></Financial>
-      <Retirement></Retirement>
-      <Footer></Footer>
+      <Navbar />
+      <Financial />
+      <Retirement />
+      <Footer />
     </div>
   );
 }
